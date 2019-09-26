@@ -1,0 +1,31 @@
+body  {
+    background-color: cornflowerblue;
+    font-family: 'PT Serif', serif;
+}
+
+#submit, #reset {
+    color: black;
+    background-color: violet;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 125px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+#submit:hover, #reset:hover {
+    background-color: chartreuse;
+    border: dotted;
+    transition-delay: .5s;
+    transition-duration: 2s;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label {
+    display: block;
+}
