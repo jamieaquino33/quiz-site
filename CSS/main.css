@@ -1,6 +1,7 @@
 body  {
     background-color: cornflowerblue;
     font-family: 'PT Serif', serif;
+    margin: 20px;
 }
 
 #submit, #reset {
